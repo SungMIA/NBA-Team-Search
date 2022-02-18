@@ -8,6 +8,7 @@ NBA Team Search
 - Opens the Cypress Component Test Runner
 
 
+## Tech:
+- React, React-Bootstrap, Axios
 - API: https://www.balldontlie.io/#introduction
-- Tech: React, React-Bootstrap, Axios
 
