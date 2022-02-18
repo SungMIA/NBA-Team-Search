@@ -1,4 +1,4 @@
-NBA Team Search
+### NBA Team Search 
 
 ## 'npm run start'
 - Starts application hosted on 'http://localhost:3000/'
