@@ -1,0 +1,81 @@
+#root {
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+
+h3 {
+  font-size: 10vh !important;
+  text-align: center !important;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  color:rgb(240, 132, 82);
+}
+
+.searchSubmit {
+  color:rgb(155, 164, 174);
+  position: absolute ;
+  justify-content: center;
+  margin-right: 0vh;
+  margin-top: 0vh;
+  height: 6vh;
+  background-color: rgb(240, 132, 82)  !important;
+  border-color: rgb(155, 164, 174) !important;
+  border-width: 2px !important;
+}
+.searchBar {
+  justify-content: center;
+  padding-left: 6vh;
+  height: 5vh;
+  border-radius: 5px !important;
+  width: 70vw;
+  border-color: rgb(155, 164, 174) !important;
+  border-width: 2px !important;
+  margin-bottom: 2vh !important;
+}
+
+[aria-label="Team Name sort asc"] {
+  background-color: rgb(82, 240, 145) !important;
+}
+[aria-label="Team Name sort desc"] {
+  background-color: rgb(240, 87, 82) !important;
+}
+[aria-label="City sort asc"] {
+  background-color: rgb(82, 240, 145) !important;
+}
+[aria-label="City sort desc"] {
+  background-color: rgb(240, 87, 82) !important;
+}
+[aria-label="Abbreviation sort asc"] {
+  background-color: rgb(82, 240, 145) !important;
+}
+[aria-label="Abbreviation sort desc"] {
+  background-color: rgb(240, 87, 82) !important;
+}
+[aria-label="Conference sort asc"] {
+  background-color: rgb(82, 240, 145) !important;
+}
+[aria-label="Conference sort desc"] {
+  background-color: rgb(240, 87, 82) !important;
+}
+[aria-label="Division sort asc"] {
+  background-color: rgb(82, 240, 145) !important;
+}
+[aria-label="Division sort desc"] {
+  background-color: rgb(240, 87, 82) !important;
+}
+
+.modal-body:nth-child(4) {
+  font-weight: bold !important;
+}
+
+@media only screen and (max-height: 600px) {
+  .searchSubmit {
+    margin-left: 2.2vw;
+    margin-top: 0.5vw;
+  }
+  .searchBar {
+    padding-left: 10vw;
+    width: 100%;
+    border-radius: 5px;
+  }
+}
